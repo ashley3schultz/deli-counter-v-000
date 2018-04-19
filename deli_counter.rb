@@ -2,13 +2,16 @@ katz_deli = []
 
 def line(katz_deli)
   current_line = []
+  
   if katz_deli.size == 0
     puts "The line is currently empty."
+    
   else
     katz_deli.each {|place|
-    line << "#{katz_deli.index(place) + 1}. #{name} "}
-   #current line.unshift "The line is currently: "
-   puts "#{current_line}"
+    num = katz_deli.index(place) + 1
+    current_line << "#{num}. #{name} "}
+    current_line.unshift "The line is currently: "
+    puts "#{current_line}"
   end
 end
   
