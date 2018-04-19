@@ -7,7 +7,7 @@ def line(katz_deli)
     puts "#{premsg}empty."
   else
     katz_deli.each {|place|
-    puts "#{premsg}#{name}"
+    puts "#{premsg}#{num}. #{name} "
     
 end
   
