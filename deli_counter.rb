@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(katz_deli)
-  num = 
+  num = katz_deli + 1
   line = ["The line is currently: "]
   if katz_deli.size == 0 
     puts "The line is currently empty."
