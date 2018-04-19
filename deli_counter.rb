@@ -8,7 +8,7 @@ def line(katz_deli)
     
   else
     katz_deli.each {|name|
-    num = katz_deli.index(place) + 1
+    num = katz_deli.index(name) + 1
     current_line << "#{num}. #{name} "}
     #current_line.unshift("The line is currently: ")
     puts "#{current_line}"
