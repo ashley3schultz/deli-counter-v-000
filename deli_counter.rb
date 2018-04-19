@@ -6,10 +6,10 @@ def line(katz_deli)
     current_line << "The line is currently empty."
   else
     katz_deli.each {|place|
-    line << "#{katz_deli[palce] + 1}. #{name} "}
-   current_line
+    line << "#{katz_deli.index(place) + 1}. #{name} "}
    #current line.unshift "The line is currently: "
   end
+  current_line
 end
   
   
