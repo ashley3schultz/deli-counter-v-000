@@ -2,11 +2,12 @@ katz_deli = []
 
 def line(katz_deli)
   premsg = "The line is currently "
+  num = 
   if katz_deli.size == 0 
-    "The line is currently empty."
+    puts "#{premsg}empty."
   else
     katz_deli.each {|place|
-    puts "#{name}"
+    puts "#{premsg}#{name}"
     
 end
   
