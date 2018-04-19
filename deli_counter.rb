@@ -7,7 +7,7 @@ def line(katz_deli)
     puts "The line is currently empty."
     
   else
-    katz_deli.each {|place|
+    katz_deli.each {|name|
     num = katz_deli.index(place) + 1
     current_line << "#{num}. #{name} "}
     current_line.unshift "The line is currently: "
