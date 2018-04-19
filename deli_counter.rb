@@ -2,8 +2,9 @@ katz []
 
 #line = 
 def take_a_number(katz_deli, name)
-  
-  #puts "#{name} (#{katz_deli})"
+  katz_deli << name
+  number = katz_deli.size
+  puts "#{name} (#{number})"
 end
 
 
