@@ -11,7 +11,7 @@ def line(katz_deli)
     num = katz_deli.index(name) + 1
     current_line << ("#{num}. #{name} ")}
     current_line.unshift("The line is currently: ")
-    puts "#{current_line}"
+    puts "#{current_line.join}"
   end
 end
   
