@@ -9,7 +9,7 @@ def line(katz_deli)
     line << "#{katz_deli.index(place) + 1}. #{name} "}
    #current line.unshift "The line is currently: "
   end
-  current_line
+  puts "#{current_line}"
 end
   
   
