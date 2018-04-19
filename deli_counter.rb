@@ -1,4 +1,4 @@
-katz []
+katz_deli = []
 
 #line = 
 def take_a_number(katz_deli, name)
